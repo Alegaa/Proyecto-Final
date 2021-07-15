@@ -1,0 +1,18 @@
+.logoMediterraneo{
+    width:34vh;
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-duration: 10s;
+        animation-name:aparecer;
+        animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1;
+    }
+ }

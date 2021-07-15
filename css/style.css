@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+header {
+  background: #6b0f20;
+  background: linear-gradient(142deg, rgba(107, 15, 32, 0.972426) 24%, rgba(130, 16, 26, 0.843575) 55%, rgba(124, 15, 26, 0.835172) 85%); }
+
+h1 {
+  font-family: 'Mate SC', serif;
+  font-weight: bold;
+  font-size: 2em;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1em;
+  padding: 1em; }
+
+h2 {
+  font-family: 'Mate SC', serif;
+  font-weight: bold;
+  font-size: 2em;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1em;
+  padding: 1em; }
+
+/*Esto esta para el formulario, no cree otro documento porque crei que no era necesario. 
+Le da el borde y el estilo al ultimo html.*/
+.form {
+  border: black 5px solid;
+  padding: 1em;
+  margin-bottom: 1rem;
+  text-align: center;
+  width: max-content;
+  height: max-content;
+  font-weight: bold;
+  margin: 0 auto; }
+
+/*Esto corresponde a blog.hmtl*/
+.apertura__Pandemia {
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold; }
+
+.apertura__imgVisitas {
+  display: flex;
+  margin: 0 auto; }
+
+/*fin del blog*/
+.collapse {
+  display: flex;
+  justify-content: flex-end; }
+
+.sucursal_imgSucursal {
+  float: left;
+  margin: 1em; }
+
+.sucursal_imgSucursal2 {
+  float: right; }
+
+.sucursal_parrafo--fontsize {
+  font-size: 1.5em;
+  text-align: center; }
+
+.logoMediterraneo {
+  width: 34vh;
+  height: 17vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-duration: 10s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+footer {
+  background: black;
+  background: linear-gradient(142deg, black 24%, rgba(27, 27, 27, 0.994835) 55%, #2e2e2e 89%); }
+
+.containerFooter {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "footer1 footer2"; }
+
+.footer1 {
+  grid-area: "footer1"; }
+  .footer1__h6-uppercase {
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #B27B3F;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 1em; }
+
+.footer2 {
+  grid-area: "footer2"; }
+  .footer2__flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+  .footer2__h6-uppercase {
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #B27B3F;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 1em; }
+  .footer2__img-width {
+    width: 20px;
+    height: 20px; }
+
+.containerTienda {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .containerTienda__vino {
+    border: black 5px solid;
+    text-align: center;
+    width: max-content;
+    height: max-content;
+    margin: 20px;
+    padding: 10px; }
+  .containerTienda__imgVino {
+    width: 200px;
+    height: 200px;
+    opacity: .5; }
+  .containerTienda__imgVino:hover {
+    opacity: 2;
+    border: #fffaf4 solid 5px; }
+
+.cuotas {
+  background-color: rgba(0, 0, 0, 0.87); }
+  .cuotas__compras {
+    color: #fffaf4;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-family: "roboto" sans-serif;
+    font-size: 2em;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite; }
+
+.containerMain {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: auto 1fr;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "bodega bodega" "fraseVino fraseVino"; }
+
+.bodega {
+  grid-area: bodega; }
+  .bodega img {
+    width: 90vw;
+    height: 85vh;
+    display: block;
+    margin: 0 auto; }
+
+.fraseVino {
+  grid-area: fraseVino;
+  /*Este include lo traje de tienda. Ahi esta el @mixin...*/
+  color: #000520;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Mate SC" serif;
+  font-size: 1.5em;
+  animation-duration: 8s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
+
+.intro {
+  background-color: none;
+  color: #82101a;
+  border: 3px solid #82101a;
+  text-transform: uppercase;
+  font-weight: bolder;
+  transition: 0.2s; }
+  .intro:hover {
+    background-color: #82101a;
+    color: white;
+    font-weight: bold; }
+
+.medium {
+  background-color: none;
+  color: #161515;
+  border: 3px solid #161515;
+  text-transform: uppercase;
+  font-weight: bolder;
+  transition: 0.2s; }
+  .medium:hover {
+    background-color: #161515;
+    color: white;
+    font-weight: bold; }

@@ -1,0 +1,28 @@
+.containerMain {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: auto 1fr;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+    "bodega bodega"
+    "fraseVino fraseVino";
+  
+}
+.bodega { 
+  grid-area: bodega;
+  img{
+  width: 90vw;
+  height: 85vh;
+  display: block;
+  margin: 0 auto;
+ }
+ }
+
+.fraseVino { 
+    grid-area: fraseVino;
+    /*Este include lo traje de tienda. Ahi esta el @mixin...*/
+    @include letra(#000520,1.5em,8s,'Mate SC'serif)
+ }
+
+ 

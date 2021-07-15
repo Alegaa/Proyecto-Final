@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background: rgb(107,15,32);
+    background: linear-gradient(142deg, rgba(107,15,32,0.9724264705882353) 24%, rgba(130,16,26,0.8435749299719888) 55%, rgba(124,15,26,0.835171568627451) 85%);
+}
+
+h1{
+    font-family: 'Mate SC', serif;  
+    font-weight: bold;
+    font-size: 2em; 
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1em;
+    padding: 1em; 
+}
+h2{ 
+    font-family: 'Mate SC', serif;  
+    font-weight: bold;
+    font-size: 2em; 
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1em;
+    padding: 1em; 
+}
+/*Esto esta para el formulario, no cree otro documento porque crei que no era necesario. 
+Le da el borde y el estilo al ultimo html.*/
+.form{
+    border: $vino;
+    padding: 1em;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: max-content; 
+    height: max-content; 
+    font-weight: bold;
+    margin:0 auto;
+
+}
+/*Esto corresponde a blog.hmtl*/
+.apertura__Pandemia{
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+}
+.apertura__imgVisitas{
+    display: flex;
+    margin: 0 auto;  
+}
+/*fin del blog*/

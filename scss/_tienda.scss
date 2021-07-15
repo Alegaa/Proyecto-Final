@@ -1,0 +1,45 @@
+.containerTienda{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    &__vino{
+      border: $vino;
+      text-align: center;
+      width: max-content; 
+      height: max-content;
+      margin: 20px;
+      padding: 10px;}  
+    &__imgVino{
+      width: 200px;
+      height: 200px;
+      opacity: .5;
+       }
+    &__imgVino:hover{
+      opacity: 2;
+      border:#fffaf4 solid 5px ;
+        }
+}
+@mixin letra($color,$fontsize,$animation,$ffamily){
+  color:$color;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-family: $ffamily;
+  font-size: $fontsize;
+  animation-duration:$animation;
+  animation-name:aparecer;
+  animation-iteration-count: infinite;
+  
+}
+.cuotas{
+  background-color: rgba(0, 0, 0, 0.87);
+      &__compras{
+      @include letra( #fffaf4, 2em, 2s,'roboto'sans-serif)
+      }
+      
+}
+        
+    
+    
+    
