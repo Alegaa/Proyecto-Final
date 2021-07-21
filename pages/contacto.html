@@ -47,37 +47,19 @@
   </header>
   <main>
     <div>
-      <div>
-        <h1>Dejanos tu consulta:</h1>
-      </div>
+      <h1>Dejanos tu consulta:</h1>
     </div>
-    <div class="form"> 
-      <div>
-        <form action="">
-          <div>
-            <div>
-              <label for="nombre" class="form__label">ingrese su nombre</label>
-              <input type="text" name="name" id="name" required>
-           </div>
-           <div>
-              <label for="email" class="form__label">ingrese su email</label>
-              <input type="email" name="email" id="email" required>
-           </div>
-           <div>
-              <label for="ingrese su comentario"class="form__label">ingrese su comentario</label>
-              <textarea name="consulta" id="consulta" cols="30" rows="10" required></textarea>
-           </div>
-           <div>
-              <label for="terms" class="form__label">acepta terminos y condiciones</label>
-              <input type="checkbox" name="terms" required>
-           </div>
-           <div>
-              <input type="reset" value="limpiar el formulario">
-              <input type="submit" value="enviar consulta">
-           </div>
-          </div>
-        </form>
-      </div>
+    <div> 
+      <form action="">
+        <label for="nombre" class="form__label">ingrese su nombre:</label>
+        <input type="text" name="name" id="name" required>
+        <label for="email" class="form__label">ingrese su email:</label>
+        <input type="email" name="email" id="email" required>
+        <label for="ingrese su comentario"class="form__label">ingrese su comentario:</label>
+        <textarea name="consulta"required></textarea>
+        <button>limpiar formulario</button>
+        <button>enviar</button>
+      </form>
     </div>
   </main>  
   <footer>
