@@ -1,0 +1,46 @@
+form{
+    box-sizing: border-box;
+    width: 400px;
+    margin: auto;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: rgba(107,15,32,0.8);
+    border-radius: 15px;
+        label{
+            width: 100%;
+            text-align: center;
+            margin:0;
+            margin-bottom: 1rem;
+            font-size: 1em;
+            text-transform: uppercase;
+            font-weight: bold; 
+            font-family: 'Mate SC', serif; 
+        }
+        input{
+            width: 100%;
+            margin-bottom: 1rem;
+            padding: 8px;
+        }
+        textarea{
+            width: 100%;
+            max-width: 100%;
+            min-width: 100px;
+            min-height: 200px;
+            margin-bottom: 1rem;
+            padding: 8px;
+        }  
+        button{
+            width: 100%;
+            padding: 10px;
+            border-radius: 15px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: 'Mate SC', serif; 
+        }
+        button:hover{
+            background-color: rgba(0, 0, 0, 0.4);
+            color: rgb(255, 255, 255);
+
+        }
+
+}
