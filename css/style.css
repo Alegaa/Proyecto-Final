@@ -57,8 +57,6 @@ h2 {
   text-align: center; }
 
 .logoMediterraneo {
-  width: 34vh;
-  height: 17vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,9 +102,8 @@ footer {
     font-weight: bold;
     line-height: 1em;
     margin: 1em; }
-  .footer2__img-width {
-    width: 20px;
-    height: 20px; }
+  .footer2_facebook:hover {
+    transform: scale(1.1); }
 
 .containerTienda {
   display: flex;
@@ -155,7 +152,8 @@ footer {
     width: 90vw;
     height: 85vh;
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-top: 2rem; }
 
 .fraseVino {
   grid-area: fraseVino;
@@ -235,4 +233,10 @@ form {
 
 @media only screen and (max-width: 420px) {
   form {
-    width: 100%; } }
+    width: 100%; }
+  .fraseVino {
+    font-size: 0.5em; }
+  .footer1__h6-uppercase {
+    font-size: 0.7em; }
+  .footer2__h6-uppercase {
+    font-size: 0.7em; } }

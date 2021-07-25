@@ -29,15 +29,13 @@ footer{
             display: flex;
             flex-direction: row;
             justify-content:space-evenly;
-            
 
         }
         &__h6-uppercase{
             @include h6($color)
         }
-        &__img-width{
-
-            width: 20px;
-            height: 20px;
+        &_facebook:hover{
+            transform: scale(1.1);
+            
         }
 }
