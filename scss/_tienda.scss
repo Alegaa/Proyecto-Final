@@ -12,12 +12,7 @@
       padding: 10px;}
     &__vino:hover{
       border:#5e5e5e96 solid 5px ;
-    }    
-    &__imgVino{
-      width: 200px;
-      height: 200px;
-      opacity: .5;
-    }
+    } 
 }
 @mixin letra($color,$fontsize,$animation,$ffamily){
   color:$color;
