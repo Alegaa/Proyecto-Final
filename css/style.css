@@ -103,8 +103,15 @@ footer {
     font-weight: bold;
     line-height: 1em;
     margin: 1em; }
-  .footer2_facebook:hover {
-    transform: scale(1.1); }
+
+.facebook:hover {
+  opacity: 0.5; }
+
+.instagram:hover {
+  opacity: 0.5; }
+
+.whatsapp:hover {
+  opacity: 0.5; }
 
 .containerTienda {
   display: flex;
@@ -118,13 +125,13 @@ footer {
     height: max-content;
     margin: 20px;
     padding: 10px; }
+  .containerTienda__vino:hover {
+    opacity: 2;
+    border: #5e5e5e96 solid 5px; }
   .containerTienda__imgVino {
     width: 200px;
     height: 200px;
     opacity: .5; }
-  .containerTienda__imgVino:hover {
-    opacity: 2;
-    border: #0718af solid 5px; }
 
 .cuotas {
   background-color: rgba(0, 0, 0, 0.87); }

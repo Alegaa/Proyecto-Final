@@ -29,13 +29,17 @@ footer{
             display: flex;
             flex-direction: row;
             justify-content:space-evenly;
-
         }
         &__h6-uppercase{
             @include h6($color)
         }
-        &_facebook:hover{
-            transform: scale(1.1);
-            
-        }
+}
+.facebook:hover{
+    opacity: 0.5;
+}
+.instagram:hover{
+    opacity: 0.5;
+}
+.whatsapp:hover{
+    opacity: 0.5;
 }
