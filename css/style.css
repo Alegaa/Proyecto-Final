@@ -46,6 +46,14 @@ h2 {
   display: flex;
   justify-content: flex-end; }
 
+nav ul li a {
+  font-family: 'Mate SC', serif;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+nav ul li a:hover {
+  transform: scale(1, 1.5); }
+
 .sucursal_imgSucursal {
   float: left;
   margin: 1em; }
