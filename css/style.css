@@ -38,7 +38,8 @@ h2 {
 
 .apertura__imgVisitas {
   display: flex;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 1rem; }
 
 /*fin del blog*/
 .collapse {
@@ -234,9 +235,19 @@ form {
 @media only screen and (max-width: 420px) {
   form {
     width: 100%; }
+  .apertura__imgVisitas {
+    width: 80%; }
+  .bodega {
+    width: 100px; }
   .fraseVino {
     font-size: 0.5em; }
   .footer1__h6-uppercase {
     font-size: 0.7em; }
   .footer2__h6-uppercase {
-    font-size: 0.7em; } }
+    font-size: 0.7em; }
+  .facebook {
+    width: 20px; }
+  .instagram {
+    width: 20px; }
+  .whatsapp {
+    width: 20px; } }
