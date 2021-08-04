@@ -32,11 +32,13 @@ h2 {
 
 /*Esto corresponde a blog.hmtl*/
 .apertura__Pandemia {
-  font-size: 1em;
-  text-align: center;
-  font-weight: bold; }
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+  margin: 1rem;
+  padding: 1rem; }
 
 .apertura__imgVisitas {
+  width: 400px;
   display: flex;
   margin: 0 auto;
   margin-bottom: 1rem; }
@@ -48,27 +50,36 @@ h2 {
 
 nav ul li a {
   font-family: 'Mate SC', serif;
-  text-transform: uppercase;
-  font-weight: bold; }
+  text-transform: uppercase; }
 
 nav ul li a:hover {
-  transform: scale(1, 1.5); }
+  font-weight: bold;
+  transform: scale(1, 1.15); }
 
-.sucursal_imgSucursal {
-  float: left;
-  margin: 1em; }
+.sucursal__nuestraSucursal {
+  display: flex; }
 
-.sucursal_imgSucursal2 {
-  float: right; }
+.sucursal__imgSucursal {
+  margin: 0 1rem 2rem 1rem; }
 
-.sucursal_parrafo--fontsize {
-  font-size: 1.5em;
-  text-align: center; }
+.sucursal__parrafoSucursal {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  margin: 0 1rem 0 1rem; }
+
+.sucursal__porqueVinos {
+  display: flex;
+  flex-direction: row-reverse; }
+
+.sucursal__imgSucursal2 {
+  margin: 0 1rem 2rem 1rem; }
+
+.sucursal__parrafoVinos {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  margin: 0 1rem 0 1rem; }
 
 .logoMediterraneo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   animation-duration: 10s;
   animation-name: aparecer;
   animation-iteration-count: infinite; }
@@ -128,13 +139,30 @@ footer {
   justify-content: space-around; }
   .containerTienda__vino {
     border: black 5px solid;
+    border-radius: 15px;
     text-align: center;
     width: max-content;
     height: max-content;
     margin: 20px;
     padding: 10px; }
   .containerTienda__vino:hover {
-    border: #5e5e5e96 solid 5px; }
+    border: #82101a solid 5px; }
+  .containerTienda__button {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border: black 5px solid;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.911);
+    color: rgba(0, 0, 0, 0.89); }
+  .containerTienda__button:hover {
+    border: #82101a 5px solid;
+    background-color: #82101a;
+    color: rgba(245, 245, 245, 0.911); }
+  .containerTienda__imgVino {
+    width: 200px;
+    height: 200px; }
 
 .cuotas {
   background-color: rgba(0, 0, 0, 0.87); }
@@ -161,7 +189,6 @@ footer {
   grid-area: bodega; }
   .bodega img {
     width: 90vw;
-    height: 85vh;
     display: block;
     margin: 0 auto;
     margin-top: 2rem; }
@@ -179,29 +206,33 @@ footer {
   animation-name: aparecer;
   animation-iteration-count: infinite; }
 
-.intro {
-  background-color: none;
-  color: #82101a;
-  border: 3px solid #82101a;
-  text-transform: uppercase;
-  font-weight: bolder;
-  transition: 0.2s; }
-  .intro:hover {
-    background-color: #82101a;
-    color: white;
-    font-weight: bold; }
-
-.medium {
-  background-color: none;
-  color: #161515;
-  border: 3px solid #161515;
-  text-transform: uppercase;
-  font-weight: bolder;
-  transition: 0.2s; }
-  .medium:hover {
-    background-color: #161515;
-    color: white;
-    font-weight: bold; }
+.mainTienda {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .mainTienda__vino {
+    border: black 5px solid;
+    border-radius: 15px;
+    text-align: center;
+    width: max-content;
+    height: max-content;
+    margin: 20px;
+    padding: 10px; }
+  .mainTienda__button {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border: black 5px solid;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: black; }
+    .mainTienda__button a {
+      text-decoration: none;
+      color: white; }
+  .mainTienda__imgVino {
+    width: 200px;
+    height: 200px; }
 
 form {
   box-sizing: border-box;
@@ -209,7 +240,7 @@ form {
   margin: auto;
   padding: 1rem;
   margin-bottom: 1rem;
-  background: rgba(107, 15, 32, 0.8);
+  background: #6b0f20;
   border-radius: 15px; }
   form label {
     width: 100%;
@@ -219,7 +250,8 @@ form {
     font-size: 1em;
     text-transform: uppercase;
     font-weight: bold;
-    font-family: 'Mate SC', serif; }
+    font-family: 'Mate SC', serif;
+    color: white; }
   form input {
     width: 100%;
     margin-bottom: 1rem;
@@ -235,6 +267,7 @@ form {
     width: 100%;
     padding: 10px;
     border-radius: 15px;
+    margin-top: 10px;
     text-transform: uppercase;
     font-weight: bold;
     font-family: 'Mate SC', serif; }
@@ -242,11 +275,15 @@ form {
     background-color: rgba(0, 0, 0, 0.4);
     color: white; }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 425px) {
   form {
     width: 100%; }
   .apertura__imgVisitas {
     width: 80%; }
+  .apertura__Pandemia {
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: 1rem; }
   .fraseVino {
     font-size: 0.5em; }
   .footer1__h6-uppercase {
@@ -258,4 +295,24 @@ form {
   .instagram {
     width: 20px; }
   .whatsapp {
-    width: 20px; } }
+    width: 20px; }
+  .sucursal__nuestraSucursal {
+    display: flex;
+    flex-direction: column; }
+  .sucursal__imgSucursal {
+    width: 60%;
+    margin: 0 auto; }
+  .sucursal__parrafoSucursal {
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: 1rem; }
+  .sucursal__porqueVinos {
+    display: flex;
+    flex-direction: column; }
+  .sucursal__imgSucursal2 {
+    width: 60%;
+    margin: 0 auto; }
+  .sucursal__parrafoVinos {
+    margin: 2rem 0 2rem 0;
+    padding: 1rem;
+    font-size: 1rem; } }

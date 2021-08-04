@@ -32,14 +32,19 @@ h2{
     padding: 1em; 
 }
 /*Esto corresponde a blog.hmtl*/
-.apertura__Pandemia{
-    font-size: 1em;
-    text-align: center;
-    font-weight: bold;
-}
-.apertura__imgVisitas{
-    display: flex;
-    margin: 0 auto;
-    margin-bottom: 1rem;  
+.apertura{
+    &__Pandemia{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    &__imgVisitas{
+        width: 400px;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 1rem;  
+    }
+
 }
 /*fin del blog*/

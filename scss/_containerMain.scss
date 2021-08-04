@@ -1,3 +1,5 @@
+@import "variables";
+
 .containerMain {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -13,7 +15,6 @@
   grid-area: bodega;
   img{
   width: 90vw;
-  height: 85vh;
   display: block;
   margin: 0 auto;
   margin-top: 2rem;
@@ -25,5 +26,37 @@
     /*Este include lo traje de tienda. Ahi esta el @mixin...*/
     @include letra(#000520,1.5em,8s,'Mate SC'serif)
  }
+ .mainTienda{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  &__vino{
+    border: $vino;
+    border-radius: 15px;
+    text-align: center;
+    width: max-content; 
+    height: max-content;
+    margin: 20px;
+    padding: 10px;}
+  &__button{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border:$vino;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    a{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+    }
+  }
+  &__imgVino{
+    width: 200px;
+    height: 200px;
+  }
+}
+
 
  

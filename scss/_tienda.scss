@@ -1,3 +1,5 @@
+@import "variables";
+
 .containerTienda{
     display: flex;
     flex-direction: row;
@@ -5,14 +7,34 @@
     justify-content: space-around;
     &__vino{
       border: $vino;
+      border-radius: 15px;
       text-align: center;
       width: max-content; 
       height: max-content;
       margin: 20px;
       padding: 10px;}
     &__vino:hover{
-      border:#5e5e5e96 solid 5px ;
+      border: $intenso solid 5px ;
+    }
+    &__button{
+      font-family: 'Roboto', sans-serif;
+      text-transform: uppercase;
+      font-weight: bolder;
+      border:$vino;
+      padding: 3px;
+      border-radius: 10px;
+      background-color: rgba(245, 245, 245, 0.911);
+      color: rgba(0, 0, 0, 0.89);
+    }
+    &__button:hover{
+      border: $intenso 5px solid;
+      background-color: $intenso;
+      color: rgba(245, 245, 245, 0.911);
     } 
+    &__imgVino{
+      width: 200px;
+      height: 200px;
+    }
 }
 @mixin letra($color,$fontsize,$animation,$ffamily){
   color:$color;

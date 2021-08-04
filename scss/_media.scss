@@ -1,9 +1,16 @@
-@media only screen and ( max-width:420px){
+@media only screen and ( max-width:425px){
     form{
         width:100%;
     }
-    .apertura__imgVisitas{
+    .apertura{
+        &__imgVisitas{
         width: 80%;
+        }
+        &__Pandemia{
+            margin-top: 2rem;
+            padding: 1rem;
+            font-size: 1rem;
+        }
     }
     .fraseVino{
         font-size: 0.5em;
@@ -22,5 +29,33 @@
     }
     .whatsapp{
         width: 20px;
+    }
+    .sucursal{
+        &__nuestraSucursal{
+        display: flex;
+        flex-direction: column;
+        }
+        &__imgSucursal{
+            width: 60%;
+            margin: 0 auto;
+        }
+        &__parrafoSucursal{
+            margin-top: 2rem;
+            padding: 1rem;
+            font-size: 1rem;
+        }
+        &__porqueVinos{
+            display: flex;
+            flex-direction: column;
+        }
+        &__imgSucursal2{
+            width: 60%;
+            margin: 0 auto;
+        }
+        &__parrafoVinos{
+            margin: 2rem 0 2rem 0;
+            padding: 1rem;
+            font-size: 1rem;
+        }
     }
 }
