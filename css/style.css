@@ -7,8 +7,7 @@ body {
   font-family: 'Roboto', sans-serif; }
 
 header {
-  background: #6b0f20;
-  background: linear-gradient(142deg, rgba(107, 15, 32, 0.972426) 24%, rgba(130, 16, 26, 0.843575) 55%, rgba(124, 15, 26, 0.835172) 85%); }
+  background: #6b0f20; }
 
 h1 {
   font-family: 'Mate SC', serif;
@@ -49,12 +48,19 @@ h2 {
   justify-content: flex-end; }
 
 nav ul li a {
-  font-family: 'Mate SC', serif;
-  text-transform: uppercase; }
+  color: #B27B3F !important;
+  font-family: 'roboto', serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: bold; }
 
 nav ul li a:hover {
-  font-weight: bold;
-  transform: scale(1, 1.15); }
+  transform: scale(1, 1.2); }
+
+.colorBack {
+  width: 100%;
+  height: 7px;
+  background-color: #B27B3F; }
 
 .sucursal__nuestraSucursal {
   display: flex; }
@@ -91,8 +97,7 @@ nav ul li a:hover {
     opacity: 1; } }
 
 footer {
-  background: black;
-  background: linear-gradient(142deg, black 24%, rgba(27, 27, 27, 0.994835) 55%, #2e2e2e 89%); }
+  background: #6b0f20; }
 
 .containerFooter {
   display: grid;
@@ -108,6 +113,8 @@ footer {
     font-weight: bold;
     line-height: 1em;
     margin: 1em; }
+  .footer1__link {
+    text-decoration: none; }
 
 .footer2 {
   grid-area: "footer2"; }
@@ -300,7 +307,6 @@ form {
     display: flex;
     flex-direction: column; }
   .sucursal__imgSucursal {
-    width: 60%;
     margin: 0 auto; }
   .sucursal__parrafoSucursal {
     margin-top: 2rem;
@@ -310,7 +316,6 @@ form {
     display: flex;
     flex-direction: column; }
   .sucursal__imgSucursal2 {
-    width: 60%;
     margin: 0 auto; }
   .sucursal__parrafoVinos {
     margin: 2rem 0 2rem 0;
