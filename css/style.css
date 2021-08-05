@@ -325,6 +325,8 @@ form {
     width: 20px; }
   .whatsapp {
     width: 20px; }
+  .sucursal__titulo {
+    font-size: 1rem; }
   .sucursal__nuestraSucursal {
     display: flex;
     flex-direction: column; }

@@ -47,6 +47,9 @@
         width: 20px;
     }
     .sucursal{
+        &__titulo{
+            font-size: 1rem;
+        }
         &__nuestraSucursal{
         display: flex;
         flex-direction: column;
