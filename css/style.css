@@ -37,10 +37,22 @@ h2 {
   padding: 1rem; }
 
 .apertura__imgVisitas {
-  width: 400px;
   display: flex;
   margin: 0 auto;
   margin-bottom: 1rem; }
+
+.vendimia__imgVendimia {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 1rem; }
+
+.vendimia__articulo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+  margin: 1rem;
+  padding: 1rem; }
 
 /*fin del blog*/
 .collapse {
@@ -285,9 +297,19 @@ form {
 @media only screen and (max-width: 425px) {
   form {
     width: 100%; }
+  .apertura__titulo {
+    font-size: 1rem; }
   .apertura__imgVisitas {
     width: 80%; }
   .apertura__Pandemia {
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: 1rem; }
+  .vendimia__titulo {
+    font-size: 1rem; }
+  .vendimia__imgVendimia {
+    width: 80%; }
+  .vendimia__articulo {
     margin-top: 2rem;
     padding: 1rem;
     font-size: 1rem; }
@@ -324,4 +346,18 @@ form {
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .fraseVino {
-    font-size: 0.8rem; } }
+    font-size: 0.8rem; }
+  .apertura__titulo {
+    font-size: 1rem; }
+  .apertura__Pandemia {
+    font-size: 1rem; }
+  .vendimia__titulo {
+    font-size: 1rem; }
+  .vendimia__articulo {
+    font-size: 1rem; }
+  .sucursal__titulo {
+    font-size: 1rem; }
+  .sucursal__parrafoSucursal {
+    font-size: 1rem; }
+  .sucursal__parrafoVinos {
+    font-size: 1rem; } }

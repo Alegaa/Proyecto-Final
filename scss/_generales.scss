@@ -39,11 +39,27 @@ h2{
         padding: 1rem;
     }
     &__imgVisitas{
-        width: 400px;
         display: flex;
         margin: 0 auto;
         margin-bottom: 1rem;  
     }
+}
+.vendimia{
+    &__imgVendimia{
+        width: 500px;
+        height: 300px;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    &__articulo{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
 
 }
+
 /*fin del blog*/

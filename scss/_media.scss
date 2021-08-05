@@ -3,10 +3,26 @@
         width:100%;
     }
     .apertura{
+        &__titulo{
+            font-size: 1rem;
+        }
         &__imgVisitas{
         width: 80%;
         }
         &__Pandemia{
+            margin-top: 2rem;
+            padding: 1rem;
+            font-size: 1rem;
+        }
+    }
+    .vendimia{
+        &__titulo{
+            font-size: 1rem;
+        }
+        &__imgVendimia{
+            width: 80%;
+        }
+        &__articulo{
             margin-top: 2rem;
             padding: 1rem;
             font-size: 1rem;
@@ -60,5 +76,33 @@
 @media only screen and (min-width:426px) and (max-width:768px){
     .fraseVino{
         font-size: 0.8rem;
+    }
+    .apertura{
+        &__titulo{
+            font-size: 1rem;
+        }
+        &__Pandemia{
+            font-size: 1rem;
+        }
+    }
+    .vendimia{
+        &__titulo{
+            font-size: 1rem;
+        }
+        &__articulo{
+            font-size: 1rem;
+        }
+    }
+    .sucursal{
+        &__titulo{
+            font-size: 1rem;
+        }
+        &__parrafoSucursal{
+            font-size: 1rem;
+        }
+        &__parrafoVinos{
+            font-size: 1rem;
+        }
+
     }
 }
