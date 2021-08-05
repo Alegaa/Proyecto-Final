@@ -313,6 +313,19 @@ form {
     margin-top: 2rem;
     padding: 1rem;
     font-size: 1rem; }
+  .contacto {
+    font-size: 1rem; }
+  .tienda {
+    font-size: 1rem; }
+  .containerTienda__button {
+    font-size: 0.7rem; }
+  .cuotas__compras {
+    font-size: 1rem; }
+  .mainTienda__button {
+    font-size: 0.7rem; }
+  .politicas {
+    font-size: 1rem;
+    padding: 1rem; }
   .fraseVino {
     font-size: 0.5em; }
   .footer1__h6-uppercase {
