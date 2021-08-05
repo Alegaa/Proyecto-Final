@@ -55,7 +55,7 @@ nav ul li a {
   font-weight: bold; }
 
 nav ul li a:hover {
-  transform: scale(1, 1.2); }
+  transform: scale(1.2); }
 
 .colorBack {
   width: 100%;
@@ -321,3 +321,7 @@ form {
     margin: 2rem 0 2rem 0;
     padding: 1rem;
     font-size: 1rem; } }
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .fraseVino {
+    font-size: 0.8rem; } }
